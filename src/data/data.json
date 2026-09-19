@@ -1,0 +1,914 @@
+[
+  {
+    "restaurant": "Kapai Coffee House & Bistro",
+    "currency": "INR",
+    "source_type": "menu_images",
+    "menu_sections": [
+      {
+        "section": "Iced Coffees",
+        "items": [
+          {
+            "name": "Iced Cappuccino",
+            "strength": "STRONG",
+            "description": "Double shot of Espresso shaken with ice, poured with equal amount of Milk Topped with milk foam",
+            "price": {
+              "regular": 169,
+              "large": 209
+            },
+            "raw_price": "169/209"
+          },
+          {
+            "name": "Iced Latte",
+            "strength": "MED. STRONG",
+            "description": "Milk and ice with a double shot poured on top",
+            "price": {
+              "regular": 179,
+              "large": 219
+            },
+            "raw_price": "179/219"
+          },
+          {
+            "name": "Iced Vietnamese",
+            "strength": "STRONG",
+            "description": "A base of condense milk topped with 60ml of milk and a double shot espresso",
+            "price": 189,
+            "raw_price": "189"
+          },
+          {
+            "name": "Iced Mocha",
+            "strength": "MED. STRONG",
+            "description": "Double shot mixed with chocolate sauce poured on top of ice & milk",
+            "price": {
+              "regular": 189,
+              "large": 229
+            },
+            "raw_price": "189/229"
+          }
+        ]
+      },
+      {
+        "section": "Iced Black Coffees",
+        "items": [
+          {
+            "name": "Iced Americano",
+            "strength": "STRONG",
+            "description": "Espresso shot topped with water & ice",
+            "price": 129,
+            "raw_price": "129"
+          },
+          {
+            "name": "Mint Iced Americano",
+            "strength": "SWEET & STRONG",
+            "description": "Lemon and Mint muddled and mixed Espresso shot Topped with water & ice",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Citrus Iced Americano",
+            "strength": "SWEET & STRONG",
+            "description": "Espresso shot mixed with orange Juice topped with water & ice",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Berry Iced Americano",
+            "strength": "SWEET & STRONG",
+            "description": "Espresso shot mixed with Cranberry Juice topped with water & ice",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Cold Brew on Ice",
+            "strength": "STRONG",
+            "description": "Cold Brew is a method of brewing coffee by steeping ground coffee with room temp. or cold water for a min of 18 hrs",
+            "price": 179,
+            "raw_price": "179",
+            "add_ons": [
+              {
+                "name": "Milk",
+                "price": 30
+              },
+              {
+                "name": "Condense Milk",
+                "price": 50
+              }
+            ]
+          },
+          {
+            "name": "Cold Brew with Tonic",
+            "strength": "STRONG",
+            "description": "Classic cold brew topped with tonic & ice",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "Orange Zesty Cold Brew",
+            "strength": "SWEET & STRONG",
+            "description": "Classic cold brew infused & brewed with orange juice",
+            "price": 219,
+            "raw_price": "219"
+          },
+          {
+            "name": "Cranberry Cold Brew",
+            "strength": "SWEET & STRONG",
+            "description": "Classic cold brew infused & brewed with cranberry juice",
+            "price": 219,
+            "raw_price": "219"
+          }
+        ]
+      },
+      {
+        "section": "Pasta's",
+        "items": [
+          {
+            "name": "Pasta DE Marinara",
+            "option_text": "Penne/Speghatti",
+            "description": "Classic marinara sauce over penne or spaghetti for a timeless pasta dish",
+            "price": 329,
+            "raw_price": "329"
+          },
+          {
+            "name": "Aglio-olio",
+            "option_text": "Penne/Speghatti",
+            "description": "Simple yet flavorful garlic and olive oil pasta, with your choice of penne or spaghetti",
+            "price": 329,
+            "raw_price": "329"
+          },
+          {
+            "name": "Cream & Cheese Pasta",
+            "option_text": "Penne/Speghatti",
+            "description": "A rich and creamy pasta dish in your choice of penne or spaghetti.",
+            "price": 349,
+            "raw_price": "349"
+          },
+          {
+            "name": "Pinky Pasta",
+            "option_text": "Penne/Speghatti",
+            "description": "A creamy tomato-based \"pink\" pasta with penne or spaghetti",
+            "price": 359,
+            "raw_price": "359"
+          },
+          {
+            "name": "Pesto Besto",
+            "option_text": "Penne/Speghatti",
+            "description": "Fresh basil pesto tossed with penne or spaghetti",
+            "price": 399,
+            "raw_price": "399"
+          }
+        ],
+        "add_ons": [
+          {
+            "name": "Extra Veggies",
+            "price": 50
+          },
+          {
+            "name": "Extra Garlic Bread",
+            "price": 30,
+            "unit": "per piece"
+          },
+          {
+            "name": "Extra Broccoli/Mushroom/Zuchini",
+            "price": 100
+          },
+          {
+            "name": "Chicken",
+            "price": 100
+          }
+        ]
+      },
+      {
+        "section": "Pizza (10 inch)",
+        "base_options_text": "Wheat Base | Thin Crust",
+        "items": [
+          {
+            "name": "Tu Cheese Badi Hai Mast",
+            "description": "A cheesy pizza that's simply irresistible",
+            "price": 299,
+            "raw_price": "299"
+          },
+          {
+            "name": "Corn-ion",
+            "description": "Sweet corn and onion topping on a crispy pizza base",
+            "price": 329,
+            "raw_price": "329"
+          },
+          {
+            "name": "Classic Farmhouse",
+            "description": "A classic veggie-loaded farmhouse pizza",
+            "price": 349,
+            "raw_price": "349"
+          },
+          {
+            "name": "Pesto Pizza",
+            "description": "A fresh and herbaceous pizza topped with pesto",
+            "raw_price": "449/499",
+            "price_values": [
+              449,
+              499
+            ]
+          },
+          {
+            "name": "PBM (Paneer Butter Masala)",
+            "description": "A fusion pizza with the rich flavors of paneer butter masala",
+            "price": 449,
+            "raw_price": "449"
+          },
+          {
+            "name": "Peri Peri Paneer/Chicken",
+            "description": "Spicy peri peri paneer on top of a cheesy pizza",
+            "raw_price": "399/449",
+            "price_values": [
+              399,
+              449
+            ]
+          },
+          {
+            "name": "Chicken Keema",
+            "description": "A spicy chicken keema topping on a crisp pizza base",
+            "price": 499,
+            "raw_price": "499"
+          }
+        ],
+        "add_ons": [
+          {
+            "name": "Extra Veggies",
+            "price": 50
+          },
+          {
+            "name": "Extra Cheese",
+            "price": 50
+          },
+          {
+            "name": "Extra Broccoli/Mushroom/Zuchini",
+            "price": 100
+          },
+          {
+            "name": "Chicken",
+            "price": 100
+          }
+        ]
+      },
+      {
+        "section": "Fries",
+        "items": [
+          {
+            "name": "Classic Fries",
+            "price": 99,
+            "raw_price": "99"
+          }
+        ],
+        "add_ons": [
+          {
+            "name": "Peri Peri",
+            "price": 30
+          },
+          {
+            "name": "Dip",
+            "price": 30,
+            "note": "Your Choice"
+          },
+          {
+            "name": "Cheese",
+            "price": 40
+          },
+          {
+            "name": "Chicken Sausage",
+            "price": 50
+          }
+        ]
+      },
+      {
+        "section": "Bruschetas",
+        "items": [
+          {
+            "name": "Tomato Garlic & Basil",
+            "price": 219,
+            "raw_price": "219"
+          },
+          {
+            "name": "Chicken Keema",
+            "price": 249,
+            "raw_price": "249"
+          }
+        ]
+      },
+      {
+        "section": "Breads",
+        "items": [
+          {
+            "name": "Classic Garlic Bread",
+            "price": 119,
+            "raw_price": "119"
+          },
+          {
+            "name": "Cheesy Garlic Bread",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Chilly Cheese Garlic Bread",
+            "price": 179,
+            "raw_price": "179"
+          },
+          {
+            "name": "Cheese Corn Garlic Bread",
+            "price": 199,
+            "raw_price": "199"
+          },
+          {
+            "name": "Pull Apart Cheesy Garlic Bread",
+            "price": 249,
+            "raw_price": "249"
+          }
+        ]
+      },
+      {
+        "section": "Nachos",
+        "items": [
+          {
+            "name": "Khakra Nachos",
+            "description": "Crispy Indian flatbread chips as nachos with in house salsa black olives & parsley",
+            "price": 149,
+            "raw_price": "149"
+          },
+          {
+            "name": "Classic Nachos",
+            "description": "Tortilla chips served with salsa",
+            "price": 149,
+            "raw_price": "149"
+          },
+          {
+            "name": "Cheesy Nachos",
+            "description": "Tortilla chips covered in melted cheese sauce",
+            "price": 199,
+            "raw_price": "199"
+          },
+          {
+            "name": "Loaded Nachos",
+            "description": "Tortilla chips topped with cheese, salsa, sour cream & veggies",
+            "price": 249,
+            "raw_price": "249"
+          }
+        ]
+      },
+      {
+        "section": "Munch Along",
+        "items": [
+          {
+            "name": "Indian Onion Fritters",
+            "description": "Onion julien's dipped in chickpea flour batter served with mint sauce",
+            "price": 149,
+            "raw_price": "149"
+          },
+          {
+            "name": "Potato Patato",
+            "description": "Herbed potato wedges baked with melted cheese on top",
+            "price": 199,
+            "raw_price": "199"
+          },
+          {
+            "name": "Crispy Corn",
+            "description": "Deep fried corn kernels with a crunchy coating tossed in veggies",
+            "price": 229,
+            "raw_price": "229"
+          },
+          {
+            "name": "Millet Bhel",
+            "description": "A healthy twist of traditional bhelpuri using assorted millet puffs",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "Nachos Bhel",
+            "description": "Fusion dish combining nachos with Indian bhel puri",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "KFC (Kapai Fried Chicken)",
+            "description": "House special crispy fried chicken",
+            "price": 299,
+            "raw_price": "299"
+          }
+        ]
+      },
+      {
+        "section": "Kapai Specials",
+        "items": [
+          {
+            "name": "Iced Coconut Vietnamese",
+            "strength": "STRONG",
+            "description": "Refreshing twist on classic Vietnamese coffee with creamy coconut milk over ice with bold espresso shot over top",
+            "price": 219,
+            "raw_price": "219"
+          },
+          {
+            "name": "Black Mojito",
+            "strength": "MED. STRONG",
+            "description": "A rebellious blend of bold espresso & zesty lime, kissed with mint for a caffeinated twist",
+            "price": 219,
+            "raw_price": "219"
+          },
+          {
+            "name": "Zesty Iced Mocha",
+            "strength": "LIGHT",
+            "description": "Iced Mocha shaken with a hint of citrus for a cool, invigorating kick",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "Pomegranate Cold Brew",
+            "strength": "STRONG",
+            "description": "Our bestselling cold brew mixed with freshly muddled pomegranate & house syrup",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "Spiced Mocha",
+            "strength": "LIGHT",
+            "description": "Café mocha spiced up with a pinch of black pepper",
+            "price": {
+              "regular": 199,
+              "large": 239
+            },
+            "raw_price": "199/239"
+          },
+          {
+            "name": "Virgin Irish Coffee",
+            "strength": "STRONG",
+            "description": "Double shot espresso infused with Irish syrup topped with Whipping cream",
+            "price": 249,
+            "raw_price": "249"
+          },
+          {
+            "name": "Tiramisu Cortado",
+            "strength": "MED. STRONG",
+            "description": "Tiramisu flavour infused in shot of espresso with equal amount of steamed milk topped with whipped cream and chocolate dust",
+            "price": 219,
+            "raw_price": "219"
+          },
+          {
+            "name": "Inverted Cappuccino",
+            "strength": "LIGHT",
+            "description": "Vanilla infused shot of espresso with equal amount of milk foam & steamed milk",
+            "price": 199,
+            "raw_price": "199"
+          }
+        ]
+      },
+      {
+        "section": "Slow Brews",
+        "items": [
+          {
+            "name": "V60 Pour Over/Iced",
+            "description_lines": [
+              "Clean, bright, and delicate flavor profile",
+              "Light to medium body"
+            ],
+            "raw_price": "199/219",
+            "price_values": [
+              199,
+              219
+            ]
+          },
+          {
+            "name": "Aeropress/Iced",
+            "description_lines": [
+              "Full-bodied but clean taste",
+              "Rich flavor with low acidity",
+              "Smooth mouthfeel"
+            ],
+            "raw_price": "219/239",
+            "price_values": [
+              219,
+              239
+            ]
+          },
+          {
+            "name": "French Press (Black)",
+            "description_lines": [
+              "Full-bodied, rich, and robust",
+              "Heavy, creamy mouthfeel due to oils",
+              "Deep, bold flavours"
+            ],
+            "price": 239,
+            "raw_price": "239"
+          }
+        ]
+      },
+      {
+        "section": "Hot White Coffees",
+        "items": [
+          {
+            "name": "Macchiato",
+            "strength": "STRONG",
+            "description": "Shot of Espresso with a mark of milk foam",
+            "price": 119,
+            "raw_price": "119"
+          },
+          {
+            "name": "Cortado",
+            "strength": "STRONG",
+            "description": "Shot of Espresso with equal amount of steamed milk",
+            "price": 139,
+            "raw_price": "139"
+          },
+          {
+            "name": "Cappuccino",
+            "strength": "MED. STRONG",
+            "description": "Shot of Espresso with equal amount of steamed milk and milk foam",
+            "price": {
+              "regular": 159,
+              "large": 199
+            },
+            "raw_price": "159/199"
+          },
+          {
+            "name": "Cafe Latte",
+            "strength": "MED. STRONG",
+            "description": "Shot of Espresso with steamed milk & mark of Milk Foam",
+            "price": {
+              "regular": 169,
+              "large": 209
+            },
+            "raw_price": "169/209"
+          },
+          {
+            "name": "Flat White",
+            "strength": "LIGHT",
+            "description": "Shot of Espresso Topped with Steamed milk",
+            "price": {
+              "regular": 179,
+              "large": 219
+            },
+            "raw_price": "179/219"
+          },
+          {
+            "name": "Cafe Mocha",
+            "strength": "MED. STRONG",
+            "description": "Shot of espresso mixed with chocolate & topped with steamed milk",
+            "price": {
+              "regular": 189,
+              "large": 229
+            },
+            "raw_price": "189/229"
+          },
+          {
+            "name": "Spiced Mocha",
+            "strength": "MED. STRONG",
+            "description": "Cafe mocha swirled with freshly grounded black pepper",
+            "price": {
+              "regular": 199,
+              "large": 239
+            },
+            "raw_price": "199/239"
+          },
+          {
+            "name": "Cinnamon Latte",
+            "strength": "MED. STRONG",
+            "description": "Regular cafe latte swirled and dusted with cinnamon powder for a rich taste",
+            "price": {
+              "regular": 199,
+              "large": 239
+            },
+            "raw_price": "199/239"
+          }
+        ]
+      },
+      {
+        "section": "Hot Black Coffee's",
+        "items": [
+          {
+            "name": "Single Shot Espresso",
+            "strength": "STRONG",
+            "description": "30ml pure coffee extract",
+            "price": 59,
+            "raw_price": "59"
+          },
+          {
+            "name": "Double Shot Espresso",
+            "strength": "STRONG",
+            "description": "60ml pure coffee extract",
+            "price": 89,
+            "raw_price": "89"
+          },
+          {
+            "name": "Americano",
+            "strength": "STRONG",
+            "description": "Espresso shot topped with water",
+            "price": 129,
+            "raw_price": "129"
+          },
+          {
+            "name": "Long Black",
+            "strength": "STRONG",
+            "description": "Water topped with espresso shot stronger & bolder flavoured",
+            "price": 139,
+            "raw_price": "139"
+          }
+        ]
+      },
+      {
+        "section": "Tea",
+        "items": [
+          {
+            "name": "Black Tea",
+            "price": 69,
+            "raw_price": "69"
+          },
+          {
+            "name": "Masala Tea",
+            "price": 89,
+            "raw_price": "89"
+          },
+          {
+            "name": "Green Tea (Twinings)",
+            "option_text": "Regular/ Lemon & Mint/ Ginger Honey/ Honey Lemon",
+            "price": 129,
+            "raw_price": "129"
+          },
+          {
+            "name": "Brewed Tea",
+            "option_text": "Hibiscus/ Lavender/ Chamomile/ Blue Tea",
+            "note": "Flavours subject to availability",
+            "price": 199,
+            "raw_price": "199"
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 149,
+            "raw_price": "149",
+            "add_ons": [
+              {
+                "name": "marshmellow",
+                "price": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Frappes",
+        "items": [
+          {
+            "name": "Classic Cold Coffee",
+            "raw_price": "189/229",
+            "price_values": [
+              189,
+              229
+            ]
+          },
+          {
+            "name": "Mint Frappe",
+            "raw_price": "219/259",
+            "price_values": [
+              219,
+              259
+            ]
+          },
+          {
+            "name": "Hazelnut Mocha",
+            "raw_price": "239/279",
+            "price_values": [
+              239,
+              279
+            ]
+          },
+          {
+            "name": "Salted Caramel",
+            "raw_price": "239/279",
+            "price_values": [
+              239,
+              279
+            ]
+          },
+          {
+            "name": "Vanilla Cinnamon",
+            "raw_price": "239/279",
+            "price_values": [
+              239,
+              279
+            ]
+          },
+          {
+            "name": "Bronze Frost",
+            "raw_price": "249/289",
+            "price_values": [
+              249,
+              289
+            ]
+          },
+          {
+            "name": "Vintage",
+            "raw_price": "249/289",
+            "price_values": [
+              249,
+              289
+            ]
+          },
+          {
+            "name": "Jawa Chip",
+            "raw_price": "249/289",
+            "price_values": [
+              249,
+              289
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Coolers",
+        "items": [
+          {
+            "name": "Classic Lemon Iced Tea",
+            "price": 139,
+            "raw_price": "139"
+          },
+          {
+            "name": "Sanskari Mojito",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Peach Iced Tea",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Topic Tropic",
+            "price": 159,
+            "raw_price": "159"
+          },
+          {
+            "name": "Berry & Basil Smash",
+            "price": 179,
+            "raw_price": "179"
+          },
+          {
+            "name": "Passion Fruit Mojito",
+            "price": 199,
+            "raw_price": "199"
+          }
+        ]
+      },
+      {
+        "section": "Desserts",
+        "note": "Kindly ask your server for the available desserts of the day.",
+        "items": []
+      },
+      {
+        "section": "Thick Shakes",
+        "items": [
+          {
+            "name": "Oreo",
+            "price": 229,
+            "raw_price": "229"
+          },
+          {
+            "name": "Kitkat",
+            "price": 229,
+            "raw_price": "229"
+          },
+          {
+            "name": "Vanilla",
+            "price": 229,
+            "raw_price": "229"
+          },
+          {
+            "name": "Chocolate",
+            "price": 229,
+            "raw_price": "229"
+          },
+          {
+            "name": "Mango",
+            "price": 269,
+            "raw_price": "269"
+          },
+          {
+            "name": "Banana",
+            "price": 269,
+            "raw_price": "269"
+          },
+          {
+            "name": "Apple",
+            "price": 269,
+            "raw_price": "269"
+          },
+          {
+            "name": "Strawberry",
+            "price": 269,
+            "raw_price": "269"
+          },
+          {
+            "name": "Biscoff",
+            "price": 289,
+            "raw_price": "289"
+          },
+          {
+            "name": "Nutella",
+            "price": 289,
+            "raw_price": "289"
+          },
+          {
+            "name": "Brownie",
+            "price": 289,
+            "raw_price": "289"
+          }
+        ]
+      },
+      {
+        "section": "Others",
+        "items": [
+          {
+            "name": "Soft Drink",
+            "price": 40,
+            "raw_price": "40"
+          },
+          {
+            "name": "Mineral Water",
+            "price": 60,
+            "raw_price": "60"
+          },
+          {
+            "name": "Tonic Water",
+            "price": 60,
+            "raw_price": "60"
+          },
+          {
+            "name": "Red Bull",
+            "price": 125,
+            "raw_price": "125"
+          },
+          {
+            "name": "Kombuchas",
+            "price": 140,
+            "raw_price": "140"
+          }
+        ]
+      }
+    ],
+    "shared_modifiers_and_notes": {
+      "make_it_lactose_free": [
+        {
+          "name": "Lactose free milk",
+          "price": 50
+        }
+      ],
+      "make_it_vegan": [
+        {
+          "name": "Almond Milk",
+          "price": 100
+        },
+        {
+          "name": "Soy Milk",
+          "price": 50
+        },
+        {
+          "name": "Oat Milk",
+          "price": 50
+        }
+      ],
+      "coffee_notes": [
+        "We don't add sugar to our coffee, please notify the server for added sugar.",
+        "WE USE 100% ARABICA BEANS",
+        "Regular(R): Standard pour single shot",
+        "Large(L): Standard pour double shot",
+        "Choice of Roast: House blend (Dark and Medium Dark Roast) | Light roast/Decaf @100"
+      ],
+      "allergen_legend": [
+        "MILK",
+        "GLUTEN",
+        "NUTS",
+        "CEREALS",
+        "EGG",
+        "SOY",
+        "SESAME"
+      ],
+      "dietary_legend": [
+        "Meat Eater",
+        "VEG",
+        "NON-VEG",
+        "EGG",
+        "NO ONION/GARLIC"
+      ]
+    },
+    "transcription_notes": [
+      "Duplicate photos of the same menu pages were not duplicated in the JSON.",
+      "Where a photo showed two prices but did not clearly label their meaning, the pair is preserved in raw_price/price_values without guessing.",
+      "Colored dietary dots/icons beside individual dishes were not assigned item-by-item unless the label was explicitly readable; the visible legend is preserved separately."
+    ],
+    "source_images": [
+      "menu-Kapai-Coffee-house-and-Bistro-gz5-1.jpg",
+      "menu-Restaurant-Kapai-Coffee-house-and-Bistro-r6o-1.jpg",
+      "menu-Kapai-Coffee-house-and-Bistro-Restaurant-jny-1.jpg",
+      "menu-Kanpur-Kapai-Coffee-house-and-Bistro-itu (1).jpg",
+      "menu-Kanpur-Kapai-Coffee-house-and-Bistro-itu.jpg",
+      "menu-Kapai-Coffee-house-and-Bistro-Kanpur-bto-1.jpg",
+      "menu-Kapai-Coffee-house-and-Bistro-Kanpur-cju.jpg",
+      "Kanpur-Kapai-Coffee-house-and-Bistro-menu-x9s-1.jpg",
+      "Restaurant-Kapai-Coffee-house-and-Bistro-menu-jfk-1.jpg",
+      "Kapai-Coffee-house-and-Bistro-Restaurant-menu-czv-1.jpg",
+      "Kanpur-Kapai-Coffee-house-and-Bistro-menu-roy.jpg"
+    ]
+  }
+]
